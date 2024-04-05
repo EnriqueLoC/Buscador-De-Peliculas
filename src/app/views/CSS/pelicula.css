@@ -1,0 +1,392 @@
+body{
+    font-family: sans-serif;
+    background-color: #082e4d;
+    background-image: url(src/images/m\1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+@media (min-width: 1201px){
+    body{
+        transition: all ease 0.3s;
+    }
+    .contenedor{
+        justify-items: center;
+        justify-content: center;
+        flex: 2 0 20%; 
+        display: flex;
+        grid-template-columns: repeat(4, minmax(200px, 1fr)); 
+        margin: auto 6rem;
+       
+    }
+    .trailer {
+        color: white;
+        position: absolute;
+        bottom: 67%; /* Ajusta la posición del h2 según sea necesario */
+        left: 23%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.2s;
+        cursor: pointer;
+    }
+    .box1Banner:hover + .trailer {
+        opacity: 1;
+        cursor: pointer;
+        
+    }
+    .box1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+        transition: all ease 0.3s;
+    
+    
+
+    }
+    .box1Banner{
+        transition: all ease 0.3s;
+        max-height: 280px;
+        border-radius: 8px;
+        transition: all ease 0.3s;
+        cursor: pointer;
+    }
+    .box1Banner:hover{
+        transition: all ease 0.3s;
+        max-height: 300px;
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    .tituloPelicula {
+        
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 50px;
+        color: whitesmoke;
+        transition: all ease 0.3s; 
+    }
+    .tituloPelicula:hover{
+        font-size: 54px;
+        transition: all ease 0.3s;
+    }
+    
+    .box1TextBox{
+        margin: 0 2rem;
+        text-align: justify;
+        width: 50%;
+        height: auto;
+        font-size: 18px;
+    }
+    .peliculaData{
+        transition: all ease 0.3s;
+        display: flex;
+        
+    }
+    .peliculaData h2:hover{
+        transition: all ease 0.3s;
+        font-size: 15px;
+    }
+    .peliculaData h2{
+        font-size: 14px;
+        margin: 0 .5rem;
+        transition: all ease 0.3s;
+    }
+    .backbtn{
+        font-weight: 600;
+        width: 100%;
+        margin-left: 3%;
+        color: whitesmoke;
+    }
+
+}
+@media (max-width: 1200px){
+    body{
+        transition: all ease 0.3s;
+    }
+    .contenedor{
+        justify-items: center;
+        justify-content: center;
+        flex: 2 1 200px;  
+        display: grid;
+        grid-template-columns: repeat(4, minmax(200PX   , 1fr)); 
+        margin: auto 6rem;
+       
+    }
+
+    .backbtn{
+        font-weight: 600;
+        width: 100%;
+        margin-left: 3%;
+        color: whitesmoke;
+    }
+    .box1{
+        transition: all ease 0.3s;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+    
+    
+
+    }
+    .box1Banner{
+        margin: auto 0;
+        max-height: 280px;
+        border-radius: 8px;
+        transition: all ease 0.3s;
+    }
+    .box1Banner:hover{
+        transition: all ease 0.3s;
+        max-height: 300px;
+    }
+    .tituloPelicula {
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 50px;
+        color: whitesmoke;
+        transition: all ease 0.3s; 
+    }
+    .tituloPelicula:hover{
+        font-size: 54px;
+        transition: all ease 0.3s;
+    }
+    
+    .box1TextBox{
+        transition: all ease 0.3s;
+        margin: 0 2rem;
+        text-align: justify;
+        width: 50%;
+        height: auto;
+        font-size: 18px;
+    }
+    .peliculaData{
+        transition: all ease 0.3s;
+        display: flex;
+        
+    }
+    .peliculaData h2:hover{
+        transition: all ease 0.3s;
+        font-size: 15px;
+    }
+    .peliculaData h2{
+        font-size: 14px;
+        margin: 0 .5rem;
+        transition: all ease 0.3s;
+    }
+    .backbtn{
+        font-weight: 600;
+        width: 100%;
+        margin-left: 3%;
+        color: whitesmoke;
+    }
+}
+
+
+@media (max-width: 723px){
+body{
+    transition: all ease 0.3s;
+}
+
+    .contenedor{
+        justify-items: center;
+        justify-content: center;
+        flex: 2 1 200px; 
+        display: grid;
+        grid-template-columns: repeat(4, minmax(200PX   , 1fr)); 
+        margin: auto 6rem;
+       
+    }
+
+    .backbtn{
+        font-weight: 600;
+        width: 100%;
+        margin-left: 3%;
+        color: whitesmoke;
+    }
+    .box1{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,(minmax(auto,1fr)));
+        justify-content: center;
+        width: 100%;
+        transition: all ease 0.3s;
+        height: 30%;
+    
+    
+
+    }
+    .box1Banner{
+        
+        margin: 1rem auto;
+        justify-content: center;
+        max-height: 400px;
+
+        border-radius: 8px;
+        transition: all ease 0.3s;
+    }
+    .box1Banner:hover{
+        transition: all ease 0.3s;
+        max-height: 430px;
+    }
+    .tituloPelicula {
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 50px;
+        color: whitesmoke;
+        transition: all ease 0.3s; 
+    }
+    .tituloPelicula:hover{
+        font-size: 54px;
+        transition: all ease 0.3s;
+    }
+    
+    .box1TextBox{
+        margin: 0 2rem;
+        text-align: justify;
+        width: 300px;
+        height: auto;
+        font-size: 18px;
+        transition: all ease 0.3s;
+    }
+    .prueba{
+
+        width: 300px;
+    }
+    .peliculaData{
+        display: flex;
+        transition: all ease 0.3s;
+        
+    }
+    .peliculaData h2:hover{
+        transition: all ease 0.3s;
+        font-size: 15px;
+    }
+    .peliculaData h2{
+        font-size: 14px;
+        margin: 0 .5rem;
+        transition: all ease 0.3s;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .box2{
+        justify-content: center;
+        height: 10%;
+        margin: 0 2rem;
+    }
+    .box2 h1{
+        font-size:18px ;
+        margin-left: 6%;
+    
+    }
+    .box3{
+        justify-content: center;
+        margin: 0 2rem;
+    
+        
+    }
+    .box3 h1{
+        margin-left: 6%;
+        font-size: 18px;
+    }
+    
+
+
+    .platformRow{
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
+    .platformRow h2{
+        font-size: 16px;
+        text-align: center;
+    }   
+    .platforms{
+        display: flex;
+        transition:transform 0.3s ease ;
+        min-width: none;
+        max-width: 177px;
+        max-height: 100px;
+        border-radius: 10px;
+    
+    }
+    .platforms:hover{
+        transform: scale(1.25);
+    }
+    .platforms:hover + .tituloPlataforma{
+        transition: all ease 0.3s;
+        font-size: 18px;
+    }
+    .castBox{
+        margin: 0rem auto;
+        
+    }
+    .castBox h2{
+        font-size:14px;
+        margin-bottom: 0;
+        text-align: center;
+        
+    }
+    .castBox img {
+        background-color: whitesmoke;
+        width: 70px;;
+        margin: .5rem .5rem;
+        border-radius: 35%;
+        transition: transform 0.3s ease;
+    }
+    .castBox img:hover{
+        transform: scale(1.25);
+        transition: transform  0.3s ease; 
+    }
+    .castBox img:hover + .nombreTexto{
+        transition:trasnform all ease 0.3s;
+    }
+    .castContainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 2rem;
+    }
+    .nombreTexto{
+        transition: all ease 0.3s;
+    }
+    .tituloPlataforma{
+        transition: all ease 0.3s;
+
+    }
+    
+
+    #overflow_text {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      
+      #toggle_text {
+        cursor: pointer;
+      }
+      
+      .button_span{
+        font-weight: 600;
+      }
+
+
+
+      

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Spott</title>
+    <link rel="stylesheet" href="../CSS/busquedaPelis.css">
+    <link rel="icon" type="image/png" href="./img/logopelis.png">
+</head>
+<body>
+
+    <div style="margin-bottom: 2rem;"></div>
+    <div><a href="/" class="backbtn">Back</a></div>
+    
+ <div class="cajabuscar">
+    <img class="logo" src="../img/logopelis.png" alt="">
+        <form id="buscador">
+            <input class="buscarBox" name="buscarBox" type="text" id="texto" value="" placeholder="Search"/>
+            <input class="button" style="display: flex;" type="submit" value=""/>
+            <i class="gg-search" class="button"></i>
+        </form>
+</div>
+
+
+    <div class="results">
+        <h3>Search results:</h3>
+
+        <div class="peliculas">
+            <% if(movies.length == 0){ %>
+                    <p class="erroMessage">Pelicula no encontrada</p>
+                <% } %>
+            <% movies.forEach((result)=>{ %>
+                <div class="peliwis">
+                    <img class="pelimg" src= "<%= result.poster%>" alt=""> 
+                    <p class="tituloPeli"><%= result.title%></p>
+                </div>    
+            <%  }); %>
+ </div>
+
+    </div>
+
+        </br>
+        <script>
+            const buscador = document.getElementById("buscador")
+            buscador.addEventListener("submit", e => {
+                e.preventDefault();
+                if (String(e.target.buscarBox.value).trim() !== '') {
+                    location.href = `${location.origin}/result/${e.target.buscarBox.value.toLowerCase()}`;
+                }
+            })
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            const peliculas = document.querySelectorAll('.pelimg');
+            peliculas.forEach(pelicula => {
+                pelicula.addEventListener('click', function() {
+                    const tituloPelicula = this.nextElementSibling.textContent.trim(); // Obtener el título de la película
+                    location.href = `${location.origin}/movie_info/${tituloPelicula}`; // Redireccionar a la página de información de la película
+                    });
+                });
+            });
+        </script>
+</body>
+</html>

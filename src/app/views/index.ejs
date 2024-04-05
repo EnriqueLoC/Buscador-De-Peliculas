@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Spott</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <script
+      src="https://kit.fontawesome.com/f7213b1133.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./img/logopelis.png" />
+  </head>
+  <body>
+    <img
+      class="estrella1"
+      src="./img/pngwing.com.png"
+      alt=""
+      width="45px"
+      height="45px"
+    />
+    <img
+      class="estrella2"
+      src="./img/pngwing.com.png"
+      alt=""
+      width="33px"
+      height="33px"
+    />
+    <img
+      class="estrella3"
+      src="./img/pngwing.com.png"
+      alt=""
+      width="45px"
+      height="45px"
+    />
+    <img
+      class="estrella4"
+      src="./img/pngwing.com.png"
+      alt=""
+      width="20px"
+      height="20px"
+    />
+    <img
+      class="estrella5"
+      src="./img/pngwing.com.png"
+      alt=""
+      width="20px"
+      height="20px"
+    />
+    <img
+      class="estrella6"
+      src="./img/pngwing.com.png"
+      alt=""
+      width="45px"
+      height="45px"
+    />
+    <img
+      class="estrella7"
+      src="./img/pngwing.com.png"
+      alt=""
+      width="18px"
+      height="18px"
+    />
+    <img
+      class="estrella8"
+      src="./img/pngwing.com.png"
+      alt=""
+      width="33px"
+      height="33px"
+    />
+    <img
+      class="estrella9"
+      src="./img/pngwing.com.png"
+      alt=""
+      width="18px"
+      height="18px"
+    />
+    <img
+      class="circulo1"
+      src="./img/Circulo_bajito-removebg-preview.png"
+      alt=""
+      width="500px"
+      height="500px"
+    />
+    <img
+      class="circulo2"
+      src="./img/Circulo_bajito-removebg-preview.png"
+      alt=""
+      width="600px"
+      height="600px"
+    />
+    <img
+      class="circulo3"
+      src="./img/Circulo_bajito-removebg-preview.png"
+      alt=""
+      width="100px"
+      height="100px"
+    />
+    <img
+      class="circulo4"
+      src="./img/Circulo_bajito-removebg-preview.png"
+      alt=""
+      width="500px"
+      height="500px"
+    />
+    <div class="container">
+      <div>
+        <img class="logo" src="./img/logopelis.png" alt="" />
+      </div>
+      <div>
+        <h2 class="neon-text">SEARCH FOR A MOVIE</h2>
+      </div>
+      <div class="bolita"></div>
+
+      <form id="movieBox">
+        <input type="text" placeholder="GENRE, NAME, DIRECTOR OR PRODUCER" id="movie" />
+        <button id="searchMovie">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </div>
+    <script>
+      const movieBox = document.getElementById('movieBox');
+      const movieInput = document.getElementById('movie');
+      movieBox.addEventListener('submit', (e) => {
+        e.preventDefault();
+        if (String(movieInput.value).trim() !== '') {
+          location.href = `${
+            location.origin
+          }/result/${movieInput.value.toLowerCase()}`;
+        }
+      });
+    </script>
+  </body>
+</html>

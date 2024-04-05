@@ -1,0 +1,9 @@
+{
+    "movies": {
+        "2012": "../img/2012.jpeg",
+        "En el bosque": "../img/enelbosque.jpeg",
+        "Ladrones de la fama":"../img/ladronesdelafama.jpeg",
+        "Mean girls":"../img/meangirls.png",
+        "No se aceptan devoluciones":"../img/noseaceptandevo.jpeg"
+    }
+}

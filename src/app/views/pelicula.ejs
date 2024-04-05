@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Spott</title>
+    <link rel="stylesheet" href="../CSS/pelicula.css">
+    <link rel="stylesheet" href="../CSS/colors.css">
+    <link rel="icon" type="image/png" href="../img/logopelis.png">
+</head>
+<body>
+    <div>
+        
+        <a href="/" class="backbtn ">Return to home page</a></div>
+    <div class="mainBox">
+        <div style="margin-bottom: 2rem;"></div>
+
+        <div class="box1">
+            <div style="display: flex;">
+                <% if (Array.isArray(movieInfo)) { %>
+                    
+                <img class="box1Banner" src= "<%= movieInfo[0].poster %>" alt="" data-trailer="<%= movieInfo[0].trailer %>">
+                
+                <% } else { %>
+                    <p>No se encontraron resultados para la película.</p>
+                <% } %>
+                <h2 class="trailer">Watch Trailer</h2>
+            </div>
+            
+            <div class="box1TextBox">
+                <% if (Array.isArray(movieInfo)) { %>
+                    
+                        <h1 class="tituloPelicula"><%= movieInfo[0].title %></h1>
+                    
+                <% } else { %>
+                    <p>No se encontraron resultados para la película.</p>
+                <% } %>
+                <div class="peliculaData">
+                    <% if (Array.isArray(movieInfo)) { %>
+                        
+                    <h2><%= movieInfo[0].director %></h2>
+                    <h2> • </h2>
+                    <h2><%= movieInfo[0].release_date %></h2>
+                    <h2> • </h2>
+                    <h2><%= movieInfo[0].genre %></h2>
+                    <h2> • </h2>
+                    <h2><%= movieInfo[0].age_classification %></h2>
+                    
+                    <% } else { %>
+                        <p>No se encontraron resultados para la película.</p>
+                    <% } %>
+                </div>
+
+                <%if (Array.isArray(movieInfo)) { %>
+                    
+                <div class="prueba" class="row">   
+                    <div class="col-md-6">
+                        <p id="overflow_text"><%= movieInfo[0].synopsis %></p>
+                        <span onclick="myFunction()" id="toggle_text" class="button_span">more</span>
+                    </div>
+                        
+                </div>
+                <% } else { %>
+                    <p>No se encontraron resultados para la película.</p>
+                <% } %>
+            </div>
+        </div>
+        <div id="barra" style="border-bottom: solid whitesmoke 2px;width: 80%; margin: 1rem auto ;"></div>
+        <div class="box2">
+            <h1>Top cast</h1>
+                <div class="castContainer">
+                    <% cast_movie.forEach(cst => { %>
+                        <% if(cst?.image && movieInfo[0]?.platform == cst?.platform){ %>
+                            <div class="castBox">
+                                <img src="<%= cst.image %>" alt="">
+                            <h2 class="nombreTexto"><%= cst?.Name ? cst.Name : ""  %></h2>
+                        </div>
+                    <% } %>
+                    <% }); %>
+            </div>
+        
+        </div>
+        <div id="barra" style="border-bottom: solid whitesmoke 2px;width: 80%; margin: 1rem auto ;"></div>
+        <div class="box3">
+            <h1>Platforms</h1>
+            <div class="contenedor">
+                <%if (Array.isArray(movieInfo)) { %>
+                    <% movieInfo.forEach((result) => {%>
+                <div class="platformRow">
+                    <% if (result.platform == "disney"){%>
+                        <img class="platforms" src="../img/disney.jpg" alt="">
+                        <h2 class="tituloPlataforma"></h2>
+                    <%}else if (result.platform == "max"){%>
+                        <img class="platforms" src="../img/hbomax.jpg" alt="">
+                        <h2 class="tituloPlataforma"></h2>
+                    <%}else if (result.platform == "netflix"){%>
+                        <img class="platforms" src="../img/Netflix.png" alt="">
+                        <h2 class="tituloPlataforma"></h2>
+                    <%}else if (result.platform == "primevideo"){%>
+                        <img class="platforms" src="../img/primevideo.jpg" alt="">
+                        <h2 class="tituloPlataforma"></h2>
+                        <%}%>
+                        <% }) %>
+                    <% } else { %>
+                        <p>No se encontraron resultados para la película.</p>
+                    <% } %>
+                </div>
+                
+            </div>
+    
+        </div>
+        <div id="barra" style="border-bottom: solid whitesmoke 2px;width: 80%; margin: .2rem auto ;"></div>
+    </div>
+    <script>
+        function myFunction() {
+    let text = document.getElementById('overflow_text');
+    let toggle = document.getElementById('toggle_text');
+
+    // Get the computed value of the 'overflow' property
+    let computedOverflow = window.getComputedStyle(text).getPropertyValue('overflow');
+
+    if (computedOverflow === 'visible') {
+        toggle.innerHTML = '..more';
+        text.style.overflow = 'hidden';
+        text.style.textOverflow = 'ellipsis';
+        text.style.whiteSpace = 'nowrap';
+    } else {
+        toggle.innerHTML = 'less';
+        text.style.overflow = 'visible';
+        text.style.textOverflow = 'clip'; // Change to 'clip' to restore default behavior
+        text.style.whiteSpace = 'normal';
+    }
+}
+    </script>
+    <script>
+        // Obtener todos los elementos de póster por su clase CSS
+        const posters = document.querySelectorAll('.box1Banner');
+    
+        // Agregar un evento de clic a cada póster
+        posters.forEach(poster => {
+            poster.addEventListener('click', () => {
+                // Obtener el valor del atributo 'data-trailer' que contiene el enlace al trailer de la película
+                const trailerUrl = poster.getAttribute('data-trailer');
+                
+                // Abrir el enlace en una nueva pestaña
+                window.open(trailerUrl, '_blank');
+            });
+        });
+    </script>
+
+</body>
+</html>

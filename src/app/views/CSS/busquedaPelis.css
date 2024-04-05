@@ -1,0 +1,302 @@
+body{
+    font-family: sans-serif;
+    background-color: #082e4d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+
+.logo{
+    transition: transform 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+
+h3{
+    
+    font-size: 22px;
+    margin: 1.2em auto 1.2em 2em;
+}
+
+input[type="text"]::placeholder{
+    color: #cfd8de;
+    font-weight: 900;
+    font-size: 13px;
+}
+input{
+    color: #0f4c75;
+}
+.cajabuscar {  
+    width: 100%;
+    max-width: 453px;
+    padding: 1rem;
+    margin: auto 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.cajabuscar button{
+    position: absolute;
+    left:80%;
+}
+
+.buscarBox{
+    border-radius: 100px;
+    color: #0f4c75;
+}
+
+#buscador {
+    padding: 0;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: auto 0;
+    position: relative;
+}
+
+#buscador fieldset { float: left }
+#buscador fieldset { width: 100% }
+
+#buscador .search {
+    font-size: 20px;
+    top: 0px;
+    color: #FFF;
+    background: #0f4c7583;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    text-align: left;
+}
+
+#texto {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid #fff; 
+    box-sizing: border-box;
+    height: 42px;
+    color: #0f4c75;
+    font-weight: 700;
+}
+
+.button{
+    top: 5%;
+    left: 12px;
+    height: 16px;
+    float: right;
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 2.0%;
+    padding: .5rem;
+    z-index: 10;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.gg-search {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs,1));
+    color: #0f4c75;
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: 420px;
+    margin-top: 2.5%;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.gg-search::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+}
+
+@media only screen and (max-width: 700px) {
+
+    .logo {
+        width: 150px;
+        height: 150px;
+        margin-left: 19%;
+        margin-right: 5%;
+        margin-bottom: 1%;
+        transition: transform 0.3s ease;
+    }
+    .logo:hover{
+        transform: scale(1.1);
+    }
+    
+
+    .cajabuscar {
+        width: 100%;
+        max-width: 200px;
+        padding: 1rem;
+        margin: auto 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    
+    .cajabuscar button{
+        position: absolute;
+        left:80%;
+    
+    }
+    
+    .buscarBox{
+    border-radius: 100px;
+    }
+    
+    #buscador {
+        padding: 0;
+        float: left;
+        clear: both;
+        width: 100%;
+        margin: auto 0;
+        position: relative;
+    }
+    
+    #buscador fieldset { float: left }
+    #buscador fieldset { width: 100% }
+    
+    #buscador .search {
+        font-size: 20px;
+        top: 0px;
+        color: #FFF;
+        background: #0f4c7583;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 40px;
+        width: 40px;
+        text-align: left;
+    }
+    
+    #texto {
+        width: 100%;
+        background-color: #fff;
+        float: left;
+        padding: 8px 0;
+        text-indent: 10px;
+        color: #555555;
+        border: 1px solid #fff; 
+        box-sizing: border-box;
+        height: 42px;
+    }
+    
+    .button{
+        top: 5%;
+        left: 2px;
+        height: 16px;
+        float: right;
+        position: absolute;
+        margin-left: 82.5%;
+        margin-top: 3.8%;
+        padding: .5rem;
+        z-index: 10;
+        opacity: 0;
+    }
+    
+    .gg-search {
+        display: block;
+        box-sizing: border-box;
+        position: relative;
+        transform: scale(var(--ggs,1));
+        color: #0f4c75;
+        width: 16px;
+        height: 16px;
+        border: 2px solid;
+        border-radius: 100%;
+        margin-left: 160px;
+        margin-top: 10px;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+    
+    .gg-search::after {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position: absolute;
+        border-radius: 3px;
+        width: 2px;
+        height: 8px;
+        background: currentColor;
+        transform: rotate(-45deg);
+        top: 11px;
+        left: 12px
+    }
+
+}
+
+.pelimg{
+    height: 230px;
+    width: 180px;
+    align-self: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.pelimg:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tituloPeli{
+   font-size: 13px; 
+    text-align: center;
+}
+.peliwis{
+    text-align: center;
+}
+
+.peliculas{
+    align-items: center;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    margin: 35px 5px 5px 10px;
+}
+
+.backbtn{
+        margin-left: 3%;
+        text-decoration: underline;
+        color: whitesmoke;
+    }
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 19%;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.erroMessage{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}

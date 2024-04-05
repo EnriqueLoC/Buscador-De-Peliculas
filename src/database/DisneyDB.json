@@ -1,0 +1,1254 @@
+{
+    "movies": [
+        {
+            "ID": 1,
+            "title": "Avatar" ,
+            "poster": "https://m.media-amazon.com/images/I/41kTVLeW1CL._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=5PSNL1qE6VY" , 
+            "director"  : "James Cameron" ,
+            "producer"  : "James Cameron" ,
+            "synopsis"  : "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization." ,
+            "age_classificaion" : "PG-13" ,
+            "cat_cast"  : "1, 2, 3",
+            "genre"  : "Action, Adventure, Fantasy" ,
+            "runtime"  : 162 ,
+            "release_date" : "2009" , 
+            "imbd_rate" : 7.9 ,
+            "rent/buy_price" : "$100 / $250"  
+        },
+        {
+            "ID": 2,
+            "title": "Frozen",
+            "poster": "https://m.media-amazon.com/images/I/81UoBlyJ2zL._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=TbQm5doF_Uc" , 
+            "director": "Chris Buck, Jennifer Lee",
+            "producer": "Peter Del Vecho",
+            "synopsis": "When a prophecy traps a kingdom in eternal winter, Anna, a fearless optimist, teams up with extreme mountain man Kristoff and his sidekick reindeer Sven on an epic journey to find Anna's sister Elsa, the Snow Queen, and put an end to her icy spell.",
+            "age_classification": "PG",
+            "cat_cast": "4, 5, 6",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 102,
+            "release_date": "2013",
+            "imbd_rate": 7.4,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 3,
+            "title": "Moana",
+            "poster": "https://m.media-amazon.com/images/I/81tH+Nsh0tL.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=LKFuXETZUsI" , 
+            "director": "Ron Clements, John Musker",
+            "producer": "Osnat Shurer",
+            "synopsis": "An adventurous teenager sails out on a daring mission to save her people. During her journey, Moana meets the once-mighty demigod Maui, who guides her in her quest to become a master way-finder.",
+            "age_classification": "PG",
+            "cat_cast": "7, 8, 9",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 107,
+            "release_date": "2016",
+            "imbd_rate": 7.6,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 4,
+            "title": "The Lion King",
+            "poster": "https://i.ebayimg.com/images/g/IogAAOSwd49i-5n8/s-l1200.jpg" ,
+            "trailer"  : "https://youtube.com/watch?v=lFzVJEksoDY" , 
+            "director": "Roger Allers, Rob Minkoff",
+            "producer": "Don Hahn",
+            "synopsis": "A young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.",
+            "age_classification": "G",
+            "cat_cast": "10, 11, 12",
+            "genre": "Animation, Adventure, Drama",
+            "runtime": 88,
+            "release_date": "1994",
+            "imbd_rate": 8.5,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 5,
+            "title": "Toy Story",
+            "poster": "https://m.media-amazon.com/images/I/61QPrqydVoL.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=tN1A2mVnrOM" , 
+            "director": "John Lasseter",
+            "producer": "Bonnie Arnold, Ralph Guggenheim",
+            "synopsis": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+            "age_classification": "G",
+            "cat_cast": "13, 14, 15",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 81,
+            "release_date": "1995",
+            "imbd_rate": 8.3,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 6,
+            "title": "Finding Nemo",
+            "poster": "https://m.media-amazon.com/images/I/71UhZSYnzqL._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=2zLkasScy7A" , 
+            "director": "Andrew Stanton, Lee Unkrich",
+            "producer": "Graham Walters",
+            "synopsis": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+            "age_classification": "G",
+            "cat_cast": "16, 17, 18",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 100,
+            "release_date": "2003",
+            "imbd_rate": 8.1,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 7,
+            "title": "The Incredibles",
+            "poster": "https://moviepostermexico.com/cdn/shop/products/PBXBmc0_1800x.jpg?v=1614016255" ,
+            "trailer"  : "https://www.youtube.com/watch?v=sJCjKQQOqT0" , 
+            "director": "Brad Bird",
+            "producer": "John Walker",
+            "synopsis": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+            "age_classification": "PG",
+            "cat_cast": "19, 20, 21",
+            "genre": "Animation, Action, Adventure",
+            "runtime": 115,
+            "release_date": "2004",
+            "imbd_rate": 8.0,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 8,
+            "title": "Zootopia",
+            "poster": "https://m.media-amazon.com/images/I/71hWkxTBHRL.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=jWM0ct-OLsM" , 
+            "director": "Byron Howard, Rich Moore",
+            "producer": "Clark Spencer",
+            "synopsis": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+            "age_classification": "PG",
+            "cat_cast": "22, 23, 24",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 108,
+            "release_date": "2016",
+            "imbd_rate": 8.0,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 9,
+            "title": "Coco",
+            "poster": "https://moviepostermexico.com/cdn/shop/products/coco_ver14_1024x1024@2x.jpg?v=1629213144" ,
+            "trailer"  : "https://www.youtube.com/watch?v=Rvr68u6k5sI" , 
+            "director": "Lee Unkrich, Adrian Molina",
+            "producer": "Darla K. Anderson",
+            "synopsis": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+            "age_classification": "PG",
+            "cat_cast": "25, 26, 27",
+            "genre": "Animation, Adventure, Family",
+            "runtime": 105,
+            "release_date": "2017",
+            "imbd_rate": 8.4,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 10,
+            "title": "Inside Out",
+            "poster": "https://moviepostermexico.com/cdn/shop/products/inside_out_ver13_xlg_1024x1024@2x.jpg?v=1588689141" ,
+            "trailer"  : "https://www.youtube.com/watch?v=LEjhY15eCx0" , 
+            "director": "Pete Docter, Ronnie Del Carmen",
+            "producer": "Jonas Rivera",
+            "synopsis": "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.",
+            "age_classification": "PG",
+            "cat_cast": "28, 29, 30",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 95,
+            "release_date": "2015",
+            "imbd_rate": 8.1,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 11,
+            "title": "Up",
+            "poster": "https://moviepostermexico.com/cdn/shop/products/up_ver2_xxlg_1024x1024@2x.jpg?v=1588688572" ,
+            "trailer"  : "https://www.youtube.com/watch?v=HWEW_qTLSEE" , 
+            "director": "Pete Docter, Bob Peterson",
+            "producer": "Jonas Rivera",
+            "synopsis": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+            "age_classification": "PG",
+            "cat_cast": "31, 32, 33",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 96,
+            "release_date": "2009",
+            "imbd_rate": 8.2,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 12,
+            "title": "WALL-E",
+            "poster": "https://moviepostermexico.com/cdn/shop/products/wall-e_1024x1024@2x.png?v=1611548098" ,
+            "trailer"  : "https://www.youtube.com/watch?v=CZ1CATNbXg0" , 
+            "director": "Andrew Stanton",
+            "producer": "Jim Morris",
+            "synopsis": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+            "age_classification": "G",
+            "cat_cast": "34, 35, 36",
+            "genre": "Animation, Adventure, Family",
+            "runtime": 98,
+            "release_date": "2008",
+            "imbd_rate": 8.4,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 13,
+            "title": "Ratatouille",
+            "poster": "https://m.media-amazon.com/images/I/71QUWocFlfL._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=NgsQ8mVkN8w" , 
+            "director": "Brad Bird, Jan Pinkava",
+            "producer": "Brad Lewis",
+            "synopsis": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
+            "age_classification": "G",
+            "cat_cast": "37, 38, 39",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 111,
+            "release_date": "2007",
+            "imbd_rate": 8.0,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 14,
+            "title": "Monsters, Inc.",
+            "poster": "https://m.media-amazon.com/images/I/71njYXdInLL._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=CGbgaHoapFM" , 
+            "director": "Pete Docter, David Silverman",
+            "producer": "Darla K. Anderson",
+            "synopsis": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, two monsters realize things may not be what they think.",
+            "age_classification": "G",
+            "cat_cast": "40, 41",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 92,
+            "release_date": "2001",
+            "imbd_rate": 8.1,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 15,
+            "title": "Beauty and the Beast",
+            "poster": "https://image.tmdb.org/t/p/original/hUJ0UvQ5tgE2Z9WpfuduVSdiCiU.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=iurbZwxKFUE" , 
+            "director": "Gary Trousdale, Kirk Wise",
+            "producer": "Don Hahn",
+            "synopsis": "A prince cursed to spend his days as a hideous monster sets out to regain his humanity by earning a young woman's love.",
+            "age_classification": "G",
+            "cat_cast": "42, 43, 44",
+            "genre": "Animation, Family, Fantasy",
+            "runtime": 84,
+            "release_date": "1991",
+            "imbd_rate": 8.0,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 16,
+            "title": "Aladdin",
+            "poster": "https://m.media-amazon.com/images/I/716e9qhR19L.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=eTjHiQKJUDY" , 
+            "director": "Ron Clements, John Musker",
+            "producer": "Ron Clements, John Musker",
+            "synopsis": "A kindhearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
+            "age_classification": "G",
+            "cat_cast": "45, 46, 47",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 90,
+            "release_date": "1992",
+            "imbd_rate": 8.0,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 17,
+            "title": "Mulan",
+            "poster": "https://m.media-amazon.com/images/I/51bJREv+9WL._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=HKH7_n425Ss" , 
+            "director": "Tony Bancroft, Barry Cook",
+            "producer": "Pam Coats",
+            "synopsis": "To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process.",
+            "age_classification": "G",
+            "cat_cast": "48, 49, 50",
+            "genre": "Animation, Adventure, Family",
+            "runtime": 88,
+            "release_date": "1998",
+            "imbd_rate": 7.6,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 18,
+            "title": "The Little Mermaid",
+            "poster": "https://m.media-amazon.com/images/I/A1uCTf0uDzL.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=nPE0f-MB_bQ" , 
+            "director": "Ron Clements, John Musker",
+            "producer": "Howard Ashman, John Musker",
+            "synopsis": "A mermaid princess makes a Faustian bargain in an attempt to become human and win a prince's love.",
+            "age_classification": "G",
+            "cat_cast": "51, 52, 53",
+            "genre": "Animation, Family, Fantasy",
+            "runtime": 83,
+            "release_date": "1989",
+            "imbd_rate": 7.6,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 19,
+            "title": "Pocahontas",
+            "poster": "https://m.media-amazon.com/images/I/61cLe0Mdg5L._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=5iB82S8rHyg" , 
+            "director": "Mike Gabriel, Eric Goldberg",
+            "producer": "James Pentecost",
+            "synopsis": "An English soldier and the daughter of an Algonquin chief share a romance when English colonists invade seventeenth-century Virginia.",
+            "age_classification": "G",
+            "cat_cast": "54, 55, 56",
+            "genre": "Animation, Adventure, Drama",
+            "runtime": 81,
+            "release_date": "1995",
+            "imbd_rate": 6.7,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 20,
+            "title": "The Jungle Book",
+            "poster": "https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/t/m/i/medium-mowli-the-jungle-book-animated-cartoon-posters-for-room-original-imaghgt3wg28zh3n.jpeg?q=90&crop=false" ,
+            "trailer"  : "https://www.youtube.com/watch?v=JFsGn_JwzCc" , 
+            "director": "Wolfgang Reitherman",
+            "producer": "Walt Disney",
+            "synopsis": "Bagheera the Panther and Baloo the Bear have a difficult time trying to convince a boy to leave the jungle for human civilization.",
+            "age_classification": "G",
+            "cat_cast": "57, 58, 59",
+            "genre": "Animation, Adventure, Family",
+            "runtime": 78,
+            "release_date": "1967",
+            "imbd_rate": 7.6,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 21,
+            "title": "The Aristocats",
+            "poster": "https://images.wolfgangsvault.com/m/xlarge/ZZZ060645-PO/the-aristocats-poster-dec-24-1970.webp" ,
+            "trailer"  : "https://www.youtube.com/watch?v=zDCPJ3FH8hA" , 
+            "director": "Wolfgang Reitherman",
+            "producer": "Winston Hibler, Wolfgang Reitherman",
+            "synopsis": "With the help of a smooth talking tomcat, a family of Parisian felines set to inherit a fortune from their owner try to make it back home after a jealous butler kidnaps them and leaves them in the country.",
+            "age_classification": "G",
+            "cat_cast": "57, 60, 64",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 78,
+            "release_date": "1970",
+            "imbd_rate": 7.1,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 22,
+            "title": "Peter Pan",
+            "poster": "https://mundoposter.com/wp-content/uploads/2021/02/posters-de-peter-pan-amazon.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=L-o0ufCPANo" , 
+            "director": "Clyde Geronimi, Wilfred Jackson",
+            "producer": "Walt Disney",
+            "synopsis": "Wendy and her brothers are whisked away to the magical world of Neverland with the hero of their stories, Peter Pan.",
+            "age_classification": "G",
+            "cat_cast": "64, 63, 62",
+            "genre": "Animation, Adventure, Family",
+            "runtime": 77,
+            "release_date": "1953",
+            "imbd_rate": 7.3,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 23,
+            "title": "Lady and the Tramp",
+            "poster": "https://m.media-amazon.com/images/I/61OCAi5779L._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=oVG-vQNbiJQ" , 
+            "director": "Clyde Geronimi, Wilfred Jackson",
+            "producer": "Walt Disney",
+            "synopsis": "The romantic tale of a sheltered uptown Cocker Spaniel dog and a streetwise downtown Mutt.",
+            "age_classification": "G",
+            "cat_cast": "65, 66",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 76,
+            "release_date": "1955",
+            "imbd_rate": 7.3,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 24,
+            "title": "Sleeping Beauty",
+            "poster": "https://i.etsystatic.com/38846367/r/il/b63fc9/4396403082/il_fullxfull.4396403082_murm.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=CfsyUyi_FJM" , 
+            "director": "Clyde Geronimi",
+            "producer": "Walt Disney",
+            "synopsis": "After being snubbed by the royal family, a malevolent fairy places a curse on a princess which only a prince can break, along with the help of three good fairies.",
+            "age_classification": "G",
+            "cat_cast": "67, 68, 69",
+            "genre": "Animation, Family, Fantasy",
+            "runtime": 75,
+            "release_date": "1959",
+            "imbd_rate": 7.2,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 25,
+            "title": "Cinderella",
+            "poster": "https://i.pinimg.com/originals/b2/cb/55/b2cb55990e618d34f550a9e5de21bcee.png" ,
+            "trailer"  : "https://www.youtube.com/watch?v=UcjYD91YW_M" , 
+            "director": "Clyde Geronimi, Wilfred Jackson",
+            "producer": "Walt Disney",
+            "synopsis": "When Cinderella's cruel stepmother prevents her from attending the Royal Ball, she gets some unexpected help from the lovable mice Gus and Jaq, and from her Fairy Godmother.",
+            "age_classification": "G",
+            "cat_cast": "93, 94, 69",
+            "genre": "Animation, Family, Fantasy",
+            "runtime": 74,
+            "release_date": "1950",
+            "imbd_rate": 7.3,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 26,
+            "title": "Snow White and the Seven Dwarfs",
+            "poster": "https://image.tmdb.org/t/p/original/2Gzqk9KAco4Sf1t4z1ZElLUc2n3.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=5fzZFQBXSLM" , 
+            "director": "William Cottrell, David Hand",
+            "producer": "Walt Disney",
+            "synopsis": "Exiled into the dangerous forest by her wicked stepmother, a princess is rescued by seven dwarf miners who make her part of their household.",
+            "age_classification": "G",
+            "cat_cast": "70, 71, 72",
+            "genre": "Animation, Family, Fantasy",
+            "runtime": 83,
+            "release_date": "1937",
+            "imbd_rate": 7.6,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 27,
+            "title": "Pinocchio",
+            "poster": "https://www.youtube.com/watch?v=GBgyVY_ClzQ" ,
+            "trailer"  : "https://lumiere-a.akamaihd.net/v1/images/p_pinocchio_19879_d6304938.jpeg" , 
+            "director": "Norman Ferguson, T. Hee",
+            "producer": "Walt Disney",
+            "synopsis": "A living puppet, with the help of a cricket as his conscience, must prove himself worthy to become a real boy.",
+            "age_classification": "G",
+            "cat_cast": "73, 74, 75",
+            "genre": "Animation, Comedy, Family",
+            "runtime": 88,
+            "release_date": "1940",
+            "imbd_rate": 7.4,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 28,
+            "title": "Bambi",
+            "poster": "https://images.justwatch.com/poster/99655634/s592/bambi" ,
+            "trailer"  : "https://www.youtube.com/watch?v=yDGv4GIR7A4" , 
+            "director": "David Hand",
+            "producer": "Walt Disney",
+            "synopsis": "The story of a young deer growing up in the forest after his mother is shot by hunters.",
+            "age_classification": "G",
+            "cat_cast": "76, 77, 78",
+            "genre": "Animation, Drama, Family",
+            "runtime": 70,
+            "release_date": "1942",
+            "imbd_rate": 7.3,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 29,
+            "title": "Dumbo",
+            "poster": "https://m.media-amazon.com/images/I/51k6VxYYmML._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=tLtQ3bCvBA0" , 
+            "director": "Samuel Armstrong, Norman Ferguson",
+            "producer": "Walt Disney",
+            "synopsis": "The stork delivers a baby elephant to Mrs. Jumbo, veteran of the circus, but the newborn is ridiculed because of his truly enormous ears and dubbed 'Dumbo'. After being separated from his mother, Dumbo is relegated to the circus' clown acts; it is up to his only friend, a mouse, to assist Dumbo to achieve his full potential.",
+            "age_classification": "G",
+            "cat_cast": "61, 95",
+            "genre": "Animation, Adventure, Family",
+            "runtime": 64,
+            "release_date": "1941",
+            "imbd_rate": 7.2,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 30,
+            "title": "Fantasia",
+            "poster": "https://mx.web.img3.acsta.net/pictures/23/09/02/00/30/3456539.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=Q4S92yRzJa8" , 
+            "director": "James Algar, Samuel Armstrong",
+            "producer": "Walt Disney, Ben Sharpsteen",
+            "synopsis": "A collection of animated interpretations of great works of Western classical music.",
+            "age_classification": "G",
+            "cat_cast": "96, 97",
+            "genre": "Animation, Family, Fantasy",
+            "runtime": 125,
+            "release_date": "1940",
+            "imbd_rate": 7.8,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 31,
+            "title": "Alice in Wonderland",
+            "poster": "https://i.ebayimg.com/images/g/PXMAAOSwFZ9k8TRd/s-l1200.webp" ,
+            "trailer"  : "https://www.youtube.com/watch?v=KLIqErnQCuw" , 
+            "director": "Clyde Geronimi, Wilfred Jackson",
+            "producer": "Walt Disney",
+            "synopsis": "Alice stumbles into the world of Wonderland. Will she get home? Not if the Queen of Hearts has her way.",
+            "age_classification": "G",
+            "cat_cast": "63",
+            "genre": "Animation, Adventure, Family",
+            "runtime": 75,
+            "release_date": "1951",
+            "imbd_rate": 7.4,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 32,
+            "title": "Peter Pan",
+            "poster": "https://mundoposter.com/wp-content/uploads/2021/02/posters-de-peter-pan-amazon.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=L-o0ufCPANo" , 
+            "director": "Clyde Geronimi, Wilfred Jackson",
+            "producer": "Walt Disney",
+            "synopsis": "Wendy and her brothers are whisked away to the magical world of Neverland with the hero of their stories, Peter Pan.",
+            "age_classification": "G",
+            "cat_cast": "64, 63, 62",
+            "genre": "Animation, Adventure, Family",
+            "runtime": 77,
+            "release_date": "1953",
+            "imbd_rate": 7.3,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 33,
+            "title": "101 Dalmatians",
+            "poster": "https://i.pinimg.com/736x/81/68/99/816899e268522df194c5fe10856f055d.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=rKCEyXoPNEU" , 
+            "director": "Clyde Geronimi, Hamilton Luske",
+            "producer": "Walt Disney",
+            "synopsis": "When a litter of Dalmatian puppies are abducted by the minions of Cruella de Vil, the parents must find them before she uses them for a diabolical fashion statement.",
+            "age_classification": "G",
+            "cat_cast": "100, 101, 102",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 79,
+            "release_date": "1961",
+            "imbd_rate": 7.2,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 34,
+            "title": "The Sword in the Stone",
+            "poster": "https://i.ebayimg.com/images/g/LpgAAOSwpiRiZIUk/s-l1600.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=sAq_zLIzlXI" , 
+            "director": "Wolfgang Reitherman",
+            "producer": "Walt Disney",
+            "synopsis": "A poor boy named Arthur learns the power of love, kindness, knowledge and bravery with the help of a wizard called Merlin in the path to become one of the most beloved kings in English history.",
+            "age_classification": "G",
+            "cat_cast": "103, 58, 104",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 79,
+            "release_date": "1963",
+            "imbd_rate": 7.2,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 35,
+            "title": "Robin Hood",
+            "poster": "https://m.media-amazon.com/images/I/51p-ieBYgUL._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=hvic3bjZDfs" , 
+            "director": "Wolfgang Reitherman",
+            "producer": "Wolfgang Reitherman",
+            "synopsis": "The story of the legendary outlaw is portrayed with the characters as humanoid animals.",
+            "age_classification": "G",
+            "cat_cast": "105, 57, 106",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 83,
+            "release_date": "1973",
+            "imbd_rate": 7.6,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 36,
+            "title": "The Fox and the Hound",
+            "poster": "https://fromthecinema.com/images/products/detail/FOXandtheHOUND1995.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=TpnWMd8IMnk" , 
+            "director": "Ted Berman, Richard Rich",
+            "producer": "Ron Miller, Wolfgang Reitherman",
+            "synopsis": "Two childhood animal friends find themselves forced to become enemies.",
+            "age_classification": "G",
+            "cat_cast": "107, 108, 109",
+            "genre": "Animation, Adventure, Drama",
+            "runtime": 83,
+            "release_date": "1981",
+            "imbd_rate": 7.3,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 37,
+            "title": "The Rescuers",
+            "poster": "https://m.media-amazon.com/images/I/81LNTiqrboL._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=n1uvsKUdHdM" , 
+            "director": "John Lounsbery, Wolfgang Reitherman",
+            "producer": "Wolfgang Reitherman",
+            "synopsis": "Two mice of the Rescue Aid Society search for a little girl kidnapped by unscrupulous treasure hunters.",
+            "age_classification": "G",
+            "cat_cast": "110, 60",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 78,
+            "release_date": "1977",
+            "imbd_rate": 6.9,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 38,
+            "title": "The Great Mouse Detective",
+            "poster": "https://m.media-amazon.com/images/I/71+ladyBE9L._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=s-v9FiDKyaA" , 
+            "director": "Ron Clements, Burny Mattinson",
+            "producer": "Burny Mattinson",
+            "synopsis": "Basil, the rodent Sherlock Holmes, investigates the kidnapping of a toy maker and uncovers its link to his archenemy, Professor Ratigan.",
+            "age_classification": "G",
+            "cat_cast": "76, 77, 78",
+            "genre": "Animation, Adventure, Family",
+            "runtime": 74,
+            "release_date": "1986",
+            "imbd_rate": 7.2,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 39,
+            "title": "Oliver & Company",
+            "poster": "https://www.originalfilmart.com/cdn/shop/products/Oliverandcompany_1988_r96_original_film_art_40382b32-c678-422b-8145-245580142770_5000x.jpg?v=1610663641" ,
+            "trailer"  : "https://www.youtube.com/watch?v=r42b0bRF9v0" , 
+            "director": "George Scribner",
+            "producer": "Kathleen Gavin",
+            "synopsis": "A lost and alone kitten joins a gang of dogs engaged in petty larceny in New York City.",
+            "age_classification": "G",
+            "cat_cast": "79, 80, 81",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 74,
+            "release_date": "1988",
+            "imbd_rate": 6.7,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 40,
+            "title": "The Little Mermaid II: Return to the Sea",
+            "poster": "https://m.media-amazon.com/images/I/51yT+A6GBdL._AC_UF894,1000_QL80_.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=69585J2yn4Q" , 
+            "director": "Jim Kammerud, Brian Smith",
+            "producer": "David K. Lovegren, Leslie Hough",
+            "synopsis": "To protect her from a sea witch, Ariel's daughter is not allowed in the ocean; but when she becomes 12, she runs away to an adventure under the sea.",
+            "age_classification": "G",
+            "cat_cast": "82, 83, 51",
+            "genre": "Animation, Drama, Family",
+            "runtime": 75,
+            "release_date": "2000",
+            "imbd_rate": 5.6,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 41,
+            "title": "The Princess and the Frog",
+            "poster": "https://lumiere-a.akamaihd.net/v1/images/p_theprincessandthefrog_20499_1c5f55a1.jpeg?region=0%2C0%2C540%2C810" ,
+            "trailer"  : "https://www.youtube.com/watch?v=uQBy6jqbmlU" , 
+            "director": "Ron Clements, John Musker",
+            "producer": "Peter Del Vecho",
+            "synopsis": "A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him.",
+            "age_classification": "G",
+            "cat_cast": "84, 85, 86",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 97,
+            "release_date": "2009",
+            "imbd_rate": 7.1,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 42,
+            "title": "Tangled",
+            "poster": "https://m.media-amazon.com/images/I/71-qC7IDkQL.jpg" ,
+            "trailer"  : "https://www.youtube.com/watch?v=ycoY201RTRo" , 
+            "director": "Nathan Greno, Byron Howard",
+            "producer": "Roy Conli",
+            "synopsis": "The magically long-haired Rapunzel has spent her entire life in a tower, but now that a runaway thief has stumbled upon her, she is about to discover the world for the first time, and who she really is.",
+            "age_classification": "PG",
+            "cat_cast": [87, 88, 89],
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 100,
+            "release_date": "2010",
+            "imbd_rate": 7.7,
+            "rent/buy_price": "$100 / $250"
+        },
+        {
+            "ID": 43,
+            "title": "Brave",
+            "poster": "https://moviepostermexico.com/cdn/shop/products/brave_ver3_xlg_1200x1200.jpg?v=1588688734" ,
+            "trailer"  : "https://www.youtube.com/watch?v=TEHWDA_6e3M" , 
+            "director": "Mark Andrews, Brenda Chapman",
+            "producer": "Katherine Sarafian",
+            "synopsis": "Determined to make her own path in life, Princess Merida defies a custom that brings chaos to her kingdom. Granted one wish, Merida must rely on her bravery and her archery skills to undo a beastly curse.",
+            "age_classification": "PG",
+            "cat_cast": "90, 91, 92",
+            "genre": "Animation, Adventure, Comedy",
+            "runtime": 93,
+            "release_date": "2012",
+            "imbd_rate": 7.1,
+            "rent/buy_price": "$100 / $250"
+        }
+        
+    ],
+
+    "cat_cast": [
+        {
+            "ID": 1,
+            "Name": "Sam Worthington" ,
+            "image": "https://static.wikia.nocookie.net/doblaje/images/4/4b/Sam_Worthington_1.jpg/revision/latest?cb=20200417141056&path-prefix=es" 
+        },
+        {
+            "ID": 2,
+            "Name": "Zoe Saldana" ,
+            "image": "https://cdn.britannica.com/17/215017-050-0E006005/American-actress-Zoe-Saldana-2018.jpg" 
+        },
+        {
+            "ID": 3,
+            "Name": "Sigourney Weaver" ,
+            "image": "https://images.mubicdn.net/images/cast_member/3731/cache-188594-1567809340/image-w856.jpg?size=800x" 
+        },
+        {
+            "ID": 4,
+            "Name": "Kristen Bell" ,
+            "image": "https://static.wikia.nocookie.net/disney/images/9/9f/Kristen_Bell.jpg/revision/latest?cb=20180131142212" 
+        },
+        {
+            "ID": 5,
+            "Name": "Idina Menzel" ,
+            "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/317808_v9_bb.jpg" 
+        },
+        {
+            "ID": 6,
+            "Name": "Jonathan Groff" ,
+            "image": "https://images.mubicdn.net/images/cast_member/21218/cache-170058-1600935533/image-w856.jpg?size=800x" 
+        },
+        {
+            "ID": 7,
+            "Name": "Auli'i Cravalho" ,
+            "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/945835_v9_bb.jpg" 
+        },
+        {
+            "ID": 8,
+            "Name": "Dwayne Johnson" ,
+            "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/235135_v9_bc.jpg" 
+        },
+        {
+            "ID": 9,
+            "Name": "Rachel House" ,
+            "image": "https://static.wikia.nocookie.net/universo-reynandez/images/2/20/Rachel_House.png/revision/latest?cb=20220530033947&path-prefix=es" 
+        },
+        {
+            "ID": 10,
+            "Name": "Matthew Broderick" ,
+            "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/44373_v9_bc.jpg" 
+        },
+        {
+            "ID": 11,
+            "Name": "Jeremy Irons" ,
+            "image": "https://media.themoviedb.org/t/p/w500/w8Ct1q02Ht3sWdOSqfp3B85TzT.jpg" 
+        },
+        {
+            "ID": 12,
+            "Name": "James Earl Jones" ,
+            "image": "https://www.freep.com/gcdn/-mm-/1007f7e1ba6d408f25c309d066699cdab71cb29f/c=0-134-1600-2267/local/-/media/DetroitFreePress/2015/01/10/B9315776539Z.1_20150110144802_000_GTI9KHMF1.1-0.jpg" 
+        },
+        {
+            "ID": 13,
+            "Name": "Tom Hanks" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BMTQ2MjMwNDA3Nl5BMl5BanBnXkFtZTcwMTA2NDY3NQ@@._V1_.jpg" 
+        },
+        {
+            "ID": 14,
+            "Name": "Tim Allen" ,
+            "image": "https://static.wikia.nocookie.net/doblaje/images/f/fa/Tin_allen_2.jpeg/revision/latest?cb=20190503011238&path-prefix=es" 
+        },
+        {
+            "ID": 15,
+            "Name": "Don Rickles" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Don_Rickles_1.jpg/640px-Don_Rickles_1.jpg" 
+        },
+        {
+            "ID": 16,
+            "Name": "Albert Brooks" ,
+            "image": "https://static.wikia.nocookie.net/doblaje/images/4/4c/AlbertBrooks.jpg/revision/latest?cb=20200805000734&path-prefix=es" 
+        },
+        {
+            "ID": 17,
+            "Name": "Ellen DeGeneres" ,
+            "image": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1052566600.jpg" 
+        },
+        {
+            "ID": 18,
+            "Name": "Alexander Gould" ,
+            "image": "https://images.mubicdn.net/images/cast_member/23645/cache-137813-1463176212/image-w856.jpg" 
+        },
+        {
+            "ID": 19,
+            "Name": "Craig T. Nelson" ,
+            "image": "https://media.themoviedb.org/t/p/w500/rMh8qdexFKmc7mq7oLzsLLvCCjs.jpg" 
+        },
+        {
+            "ID": 20,
+            "Name": "Samuel L. Jackson" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BMTQ1NTQwMTYxNl5BMl5BanBnXkFtZTYwMjA1MzY1._V1_FMjpg_UX1000_.jpg" 
+        },
+        {
+            "ID": 21,
+            "Name": "Holly Hunter" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BMjIzNzg1ODA1NF5BMl5BanBnXkFtZTcwNTI4NzQ4Mg@@._V1_FMjpg_UX1000_.jpg" 
+        },
+        {
+            "ID": 22,
+            "Name": "Ginnifer Goodwin" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Ginnifer_Goodwin_by_Gage_Skidmore.jpg" 
+        },
+        {
+            "ID": 23,
+            "Name": "Jason Bateman" ,
+            "image": "https://cdn.britannica.com/00/218000-050-8F3F4E83/American-actor-Jason-Bateman-2018.jpg" 
+        },
+        {
+            "ID": 24,
+            "Name": "Idris Elba" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Idris_Elba-4580_%28cropped%29.jpg" 
+        },
+        {
+            "ID": 25,
+            "Name": "Anthony Gonzalez" ,
+            "image": "https://media.gettyimages.com/id/1167317825/es/foto/beverly-hills-california-actor-anthony-gonzalez-attends-the-34th-annual-imagen-awards-at-the.jpg?s=612x612&w=gi&k=20&c=mrbRUaaO6L9D0ga9K_Gjr2sbh9eWYIWWprDEq1aZT6k=" 
+        },
+        {
+            "ID": 26,
+            "Name": "Gael García Bernal" ,
+            "image": "https://images.mubicdn.net/images/cast_member/1101/cache-514848-1639164127/image-w856.jpg?size=800x" 
+        },
+        {
+            "ID": 27,
+            "Name": "Benjamin Bratt" ,
+            "image": "https://media.gettyimages.com/id/1457287602/es/foto/los-angeles-california-benjamin-bratt-arrives-at-the-los-angeles-premiere-for-peacock-original.jpg?s=612x612&w=gi&k=20&c=Lp50K-pRqPaetETWq_2TbSmk6UKeXS4vmxHvE9YsqCw=" 
+        },
+        {
+            "ID": 28,
+            "Name": "Amy Poehler" ,
+            "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/242722_v9_bc.jpg" 
+        },
+        {
+            "ID": 29,
+            "Name": "Bill Hader" ,
+            "image": "https://es.web.img3.acsta.net/pictures/19/03/20/18/50/3196945.jpg" 
+        },
+        {
+            "ID": 30,
+            "Name": "Lewis Black" ,
+            "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/214558_v9_bb.jpg" 
+        },
+        {
+            "ID": 31,
+            "Name": "Edward Asner" ,
+            "image": "https://vz.cnwimg.com/wp-content/uploads/2011/11/ed.jpg" 
+        },
+        {
+            "ID": 32,
+            "Name": "Jordan Nagai" ,
+            "image": "https://media.themoviedb.org/t/p/w500/j1kVS2sI3wWIHCCzzYD1buXAP9e.jpg" 
+        },
+        {
+            "ID": 33,
+            "Name": "John Ratzenberger" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/JohnRatzenberger08RIIFF.jpg" 
+        },
+        {
+            "ID": 34,
+            "Name": "Ben Burtt" ,
+            "image": "https://static.wikia.nocookie.net/doblaje/images/f/f5/Ben_Burtt.jpg/revision/latest?cb=20210831235051&path-prefix=es" 
+        },
+        {
+            "ID": 35,
+            "Name": "Elissa Knight" ,
+            "image": "https://images.mubicdn.net/images/cast_member/18014/cache-209002-1489644379/image-w856.jpg?size=800x" 
+        },
+        {
+            "ID": 36,
+            "Name": "Jeff Garlin" ,
+            "image": "https://static.wikia.nocookie.net/disney/images/2/27/Jeff_Garlin.jpg/revision/latest?cb=20190803214405" 
+        },
+        {
+            "ID": 37,
+            "Name": "Brad Garrett" ,
+            "image": "https://media.themoviedb.org/t/p/w500/813ffbpoaoaJRdoe1yrbivboWKp.jpg" 
+        },
+        {
+            "ID": 38,
+            "Name": "Lou Romano" ,
+            "image": "https://static.wikia.nocookie.net/pixar/images/5/55/Lou_Romano.jpg/revision/latest?cb=20231010204626" 
+        },
+        {
+            "ID": 39,
+            "Name": "Patton Oswalt" ,
+            "image": "https://static.wikia.nocookie.net/disney/images/0/07/Patton_Oswalt.jpg/revision/latest?cb=20180814220307" 
+        },
+        {
+            "ID": 40,
+            "Name": "Billy Crystal" ,
+            "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/380_v9_bd.jpg" 
+        },
+        {
+            "ID": 41,
+            "Name": "Mary Gibbs" ,
+            "image": "https://static.wikia.nocookie.net/universo-reynandez/images/8/8d/Mary_Morgan_Gibbs.jpg/revision/latest?cb=20221222055056&path-prefix=es" 
+        },
+        {
+            "ID": 42,
+            "Name": "Paige O'Hara" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Paige_O%27Hara_%2849132792143%29.jpg" 
+        },
+        {
+            "ID": 43,
+            "Name": "Robby Benson" ,
+            "image": "https://static.wikia.nocookie.net/doblaje/images/6/6d/Robby_Benson.jpg/revision/latest?cb=20210321180912&path-prefix=es" 
+        },
+        {
+            "ID": 44,
+            "Name": "Jesse Corti" ,
+            "image": "https://static.wikia.nocookie.net/doblaje/images/4/4b/Jesse_Corti_2016.jpg/revision/latest?cb=20180321181550&path-prefix=es" 
+        },
+        {
+            "ID": 45,
+            "Name": "Scott Weinger" ,
+            "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/80519_v9_bb.jpg" 
+        },
+        {
+            "ID": 46,
+            "Name": "Robin Williams" ,
+            "image": "https://cdn.britannica.com/82/130482-050-87C2665C/Actor-Robin-Williams.jpg" 
+        },
+        {
+            "ID": 47,
+            "Name": "Linda Larkin" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Linda_Larkin_Photo_Op_GalaxyCon_Raleigh_2022_%28cropped%29.jpg" 
+        },
+        {
+            "ID": 48,
+            "Name": "Ming-Na Wen" ,
+            "image": "https://static.wikia.nocookie.net/esstarwars/images/2/2d/MingNaWen.jpg/revision/latest?cb=20190826210844" 
+        },
+        {
+            "ID": 49,
+            "Name": "Eddie Murphy" ,
+            "image": "https://static.wikia.nocookie.net/doblaje/images/1/1a/EddieMurphy.jpg/revision/latest?cb=20191103185619&path-prefix=es" 
+        },
+        {
+            "ID": 50,
+            "Name": "BD Wong" ,
+            "image": "https://ntvb.tmsimg.com/assets/assets/6863_v9_bb.jpg" 
+        },
+        {
+            "ID": 51,
+            "Name": "Jodi Benson" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Jodi_Benson_Photo_Op_GalaxyCon_Austin_2023_%28cropped%29.jpg" 
+        },
+        {
+            "ID": 52,
+            "Name": "Samuel E. Wright" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BMTQxMzMzNTgzNl5BMl5BanBnXkFtZTcwMDU4NjAyOA@@._V1_.jpg" 
+        },
+        {
+            "ID": 53,
+            "Name": "Rene Auberjonois" ,
+            "image": "https://static.wikia.nocookie.net/doblaje/images/0/09/Rene_Auberjonois.jpg/revision/latest?cb=20130304231849&path-prefix=es" 
+        },
+        {
+            "ID": 54,
+            "Name": "Mel Gibson" ,
+            "image": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-645652176.jpg" 
+        },
+        {
+            "ID": 55,
+            "Name": "Linda Hunt" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BMTM0NDg4MzMzNV5BMl5BanBnXkFtZTcwOTUwMTc4Mg@@._V1_FMjpg_UX1000_.jpg" 
+        },
+        {
+            "ID": 56,
+            "Name": "Christian Bale" ,
+            "image": "https://lh5.googleusercontent.com/proxy/65b7WWhp704ga-Jx_1WrCPwT4ZYfEV3zMVsfdtwSXsd6JbvkZOUap2wnIxuNSFxb3qj2eDsynxvOinwQND4zarlB9OdCOFriZ7A0dK4AsMoHngmfSHuVNoNNrnu7ygf8cp1218N9tRPwQVj1CjaO7jL_xE9jB1R2DA" 
+        },
+        {
+            "ID": 57,
+            "Name": "Phil Harris" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BMTMxNDQwMTIzNF5BMl5BanBnXkFtZTcwODA1MjM4Mw@@._V1_FMjpg_UX1000_.jpg" 
+        },
+        {
+            "ID": 58,
+            "Name": "Sebastian Cabot" ,
+            "image": "https://static.wikia.nocookie.net/doblaje/images/e/ea/Sebastian_cabot-colorized.jpg/revision/latest?cb=20211229031738&path-prefix=es" 
+        },
+        {
+            "ID": 59,
+            "Name": "Louis Prima" ,
+            "image": "https://i.scdn.co/image/f5cb5a6563460ac7c5bfadccca8cf878193ae247" 
+        },
+        {
+            "ID": 60,
+            "Name": "Eva Gabor" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BMTg0MjcwMTMyN15BMl5BanBnXkFtZTYwNjk3MzU2._V1_.jpg" 
+        },
+        {
+            "ID": 61,
+            "Name": "Sterling Holloway" ,
+            "image": "https://lastfm.freetls.fastly.net/i/u/ar0/f6e0ae321a2d379da1d6fafb151e47b1.jpg" 
+        },
+        {
+            "ID": 62,
+            "Name": "Hans Conried" ,
+            "image": "https://media.themoviedb.org/t/p/w500/rftuT9tTEqVoEDqqJZEQicnXHVH.jpg" 
+        },
+        {
+            "ID": 63,
+            "Name": "Kathryn Beaumont" ,
+            "image": "https://media.themoviedb.org/t/p/w500/dHQ51n2i2vjdt4bdgAYXWvJQips.jpg" 
+        },
+        {
+            "ID": 64,
+            "Name": "Bobby Driscoll" ,
+            "image": "https://ew.com/thmb/r8t_ARoqvFEOur8dTDPxK9fsuSo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bobby-driscoll-8b5748aa4b8347a88e0c057e9b2b6fee.jpg" 
+        },
+        {
+            "ID": 65,
+            "Name": "Larry Roberts" ,
+            "image": "https://media.wired.com/photos/5932a435aef9a462de98413c/master/pass/Lawrence-Roberts.jpg" 
+        },
+        {
+            "ID": 66,
+            "Name": "Peggy Lee" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Peggy_Lee_1950.JPG" 
+        },
+        {
+            "ID": 67,
+            "Name": "Mary Costa" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BZmYxOWFiOTAtNjBhNi00OWNhLTg5YmYtOGFiYjA4Zjg2ZWUyXkEyXkFqcGdeQXVyMTcyODY2NDQ@._V1_.jpg" 
+        },
+        {
+            "ID": 68,
+            "Name": "Bill Shirley" ,
+            "image": "https://static.wikia.nocookie.net/universo-reynandez/images/c/c7/Bill_Shirley.jpg/revision/latest?cb=20230827174856&path-prefix=es" 
+        },
+        {
+            "ID": 69,
+            "Name": "Eleanor Audley" ,
+            "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/79969_v9_ba.jpg" 
+        },
+        {
+            "ID": 70,
+            "Name": "Adriana Caselotti" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Adriana-Caselotti.jpg" 
+        },
+        {
+            "ID": 71,
+            "Name": "Harry Stockwell" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Harry_Stockwell_1945.jpg" 
+        },
+        {
+            "ID": 72,
+            "Name": "Lucille La Verne" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BNjc5MjhkYTAtYmUxZS00ZDc3LWE4OTAtNDQ5ZTZiZmY0ZWJjXkEyXkFqcGdeQXVyMzI5NDcxNzI@._V1_.jpg" 
+        },
+        {
+            "ID": 73,
+            "Name": "Dickie Jones" ,
+            "image": "https://static.wikia.nocookie.net/universo-reynandez/images/f/f1/Dickie_Jones.jpg/revision/latest?cb=20220928090811&path-prefix=es" 
+        },
+        {
+            "ID": 74,
+            "Name": "Christian Rub" ,
+            "image": "https://images.mubicdn.net/images/cast_member/24458/cache-228571-1496816332/image-w856.jpg?size=800x" 
+        },
+        {
+            "ID": 75,
+            "Name": "Mel Blanc" ,
+            "image": "https://zacharymule.com/wp/wp-content/uploads/2015/07/Mel-Blanc-uncredited-photo.jpg" 
+        },
+        {
+            "ID": 76,
+            "Name": "Hardie Albright" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BMzY2NzI2NzgxMl5BMl5BanBnXkFtZTcwMDA0MDQzOA@@._V1_.jpg" 
+        },
+        {
+            "ID": 77,
+            "Name": "Stan Alexander" ,
+            "image": "https://static.wikia.nocookie.net/bambino/images/8/81/Stan_Alexander.png/revision/latest?cb=20231126175530" 
+        },
+        {
+            "ID": 78,
+            "Name": "Bobette Audrey" ,
+            "image": "https://ugc.production.linktr.ee/w7c6K0DVShym7XH9lXiQ_geen_persoon_afbeelding.jpg" 
+        },
+        {
+            "ID": 79,
+            "Name": "Joey Lawrence" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Joey_Lawrence_Photo_Op_GalaxyCon_Richmond_2024.jpg/800px-Joey_Lawrence_Photo_Op_GalaxyCon_Richmond_2024.jpg" 
+        },
+        {
+            "ID": 80,
+            "Name": "Billy Joel" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Billy_Joel_Shankbone_NYC_2009.jpg" 
+        },
+        {
+            "ID": 81,
+            "Name": "Cheech Marin" ,
+            "image": "https://static.wikia.nocookie.net/disney/images/1/12/Cheech_Marin.jpg/revision/latest?cb=20190314003538" 
+        },
+        {
+            "ID": 82,
+            "Name": "Tara Strong" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tara_Strong_Photo_Op_GalaxyCon_Austin_2023.jpg" 
+        },
+        {
+            "ID": 83,
+            "Name": "Pat Carroll" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Pat_Carroll_1972.JPG/640px-Pat_Carroll_1972.JPG" 
+        },
+        {
+            "ID": 84,
+            "Name": "Anika Noni Rose" ,
+            "image": "https://static.wikia.nocookie.net/amphibiapedia/images/c/c0/Anika_Noni_Rose.jpg/revision/latest?cb=20210724201252" 
+        },
+        {
+            "ID": 85,
+            "Name": "Keith David" ,
+            "image": "https://www.kennedy-center.org/link/4ba51d28c10d405f9f3960ee70d90fad.aspx" 
+        },
+        {
+            "ID": 86,
+            "Name": "Oprah Winfrey" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Oprah_in_2014.jpg/800px-Oprah_in_2014.jpg" 
+        },
+        {
+            "ID": 87,
+            "Name": "Mandy Moore" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Mandy_Moore_at_SXSW_2018_%2825904503147%29_%28cropped%29.jpg/1084px-Mandy_Moore_at_SXSW_2018_%2825904503147%29_%28cropped%29.jpg" 
+        },
+        {
+            "ID": 88,
+            "Name": "Zachary Levi" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Zachary_Levi_by_Gage_Skidmore_6.jpg/800px-Zachary_Levi_by_Gage_Skidmore_6.jpg" 
+        },
+        {
+            "ID": 89,
+            "Name": "Donna Murphy" ,
+            "image": "https://static.wikia.nocookie.net/disney/images/4/43/Donna_Murphy.jpg/revision/latest?cb=20200916204339" 
+        },
+        {
+            "ID": 90,
+            "Name": "Kelly Macdonald" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BNDc5NTU2MzY0Nl5BMl5BanBnXkFtZTcwMzU4MjA0Ng@@._V1_.jpg" 
+        },
+        {
+            "ID": 91,
+            "Name": "Billy Connolly" ,
+            "image": "https://media.themoviedb.org/t/p/w500/imqsEA1EPet7OvHx80VfTYfFcWf.jpg" 
+        },
+        {
+            "ID": 92,
+            "Name": "Emma Thompson" ,
+            "image": "https://cdn.britannica.com/40/205240-050-31BB8996/Emma-Thompson-2013.jpg" 
+        },
+        {
+            "ID": 93,
+            "Name": "Zachary Levi" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Zachary_Levi_by_Gage_Skidmore_6.jpg/800px-Zachary_Levi_by_Gage_Skidmore_6.jpg" 
+        },
+        {
+            "ID": 94,
+            "Name": "Donna Murphy" ,
+            "image": "https://static.wikia.nocookie.net/disney/images/4/43/Donna_Murphy.jpg/revision/latest?cb=20200916204339" 
+        },
+        {
+            "ID": 95,
+            "Name": "Kelly Macdonald" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BNDc5NTU2MzY0Nl5BMl5BanBnXkFtZTcwMzU4MjA0Ng@@._V1_.jpg" 
+        },
+        {
+            "ID": 96,
+            "Name": "Billy Connolly" ,
+            "image": "https://media.themoviedb.org/t/p/w500/imqsEA1EPet7OvHx80VfTYfFcWf.jpg" 
+        },
+        {
+            "ID": 97,
+            "Name": "Emma Thompson" ,
+            "image": "https://cdn.britannica.com/40/205240-050-31BB8996/Emma-Thompson-2013.jpg" 
+        },
+        {
+            "ID": 98,
+            "Name": "Zachary Levi" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Zachary_Levi_by_Gage_Skidmore_6.jpg/800px-Zachary_Levi_by_Gage_Skidmore_6.jpg" 
+        },
+        {
+            "ID": 99,
+            "Name": "Donna Murphy" ,
+            "image": "https://static.wikia.nocookie.net/disney/images/4/43/Donna_Murphy.jpg/revision/latest?cb=20200916204339" 
+        },
+        {
+            "ID": 100,
+            "Name": "Kelly Macdonald" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BNDc5NTU2MzY0Nl5BMl5BanBnXkFtZTcwMzU4MjA0Ng@@._V1_.jpg" 
+        },
+        {
+            "ID": 101,
+            "Name": "Billy Connolly" ,
+            "image": "https://media.themoviedb.org/t/p/w500/imqsEA1EPet7OvHx80VfTYfFcWf.jpg" 
+        },
+        {
+            "ID": 102,
+            "Name": "Emma Thompson" ,
+            "image": "https://cdn.britannica.com/40/205240-050-31BB8996/Emma-Thompson-2013.jpg" 
+        },
+        {
+            "ID": 103,
+            "Name": "Rickie Sorensen" ,
+            "image": "https://m.media-amazon.com/images/I/512scD-tysL._AC_UF1000,1000_QL80_.jpg" 
+        },
+        {
+            "ID": 104,
+            "Name": "Karl Swenson" ,
+            "image": "https://media.themoviedb.org/t/p/w500/36uUxu4K8WQi8oZJMsciKzu15kS.jpg" 
+        },
+        {
+            "ID": 105,
+            "Name": "Brian Bedford" ,
+            "image": "https://duffyarchive.b-cdn.net/wp-content/uploads/2024/01/ST_050_052.jpg" 
+        },
+        {
+            "ID": 106,
+            "Name": "Roger Miller" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Roger_Miller_1975.jpg" 
+        },
+        {
+            "ID": 107,
+            "Name": "Mickey Rooney" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BMWFmMmFlY2UtNWFkOC00ZWVkLTk4YmUtZjM2ODJhYzhlMzcyXkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_.jpg" 
+        },
+        {
+            "ID": 108,
+            "Name": "Kurt Russell" ,
+            "image": "https://es.web.img3.acsta.net/c_310_420/pictures/17/04/25/14/52/158476.jpg" 
+        },
+        {
+            "ID": 109,
+            "Name": "Pearl Bailey" ,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Pearl_Bailey_-_publicity.jpg" 
+        },
+        {
+            "ID": 110,
+            "Name": "Bob Newhart" ,
+            "image": "https://m.media-amazon.com/images/M/MV5BMTk5MDE5NDcxOV5BMl5BanBnXkFtZTcwNTAxOTkwMg@@._V1_.jpg" 
+        }
+    ],
+
+    "platforms":[
+        {
+            "ID": 1,
+            "Name": "Netflix",
+            "image": ""
+        }
+    ]
+}
